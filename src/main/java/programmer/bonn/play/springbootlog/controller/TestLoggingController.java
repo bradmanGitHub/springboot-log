@@ -17,6 +17,9 @@ public class TestLoggingController {
 		log.info("print in INFO scope");
 		log.warn("print in WARN scope");
 		log.error("print in ERROR scope");
+		
+		
+		System.out.println("sayHello service is invoked!");
 
 		return "Hello";
 	}
